@@ -35,7 +35,8 @@
             android:layout_row="0"
             android:layout_column="0"
             app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -82,12 +83,12 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_home" />
+                    android:src="@drawable/ic_chat" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Home"
+                    android:text="Chat"
                     android:textSize="16sp"
                     android:textColor="@color/colorBlack"/>
 
@@ -117,12 +118,12 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_home" />
+                    android:src="@drawable/ic_person" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Home"
+                    android:text="Profile"
                     android:textSize="16sp"
                     android:textColor="@color/colorBlack"/>
 
@@ -152,12 +153,12 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_home" />
+                    android:src="@drawable/ic_widget" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Home"
+                    android:text="Widgets"
                     android:textSize="16sp"
                     android:textColor="@color/colorBlack"/>
 
@@ -187,12 +188,12 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_home" />
+                    android:src="@drawable/ic_settings" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Home"
+                    android:text="Settings"
                     android:textSize="16sp"
                     android:textColor="@color/colorBlack"/>
 
